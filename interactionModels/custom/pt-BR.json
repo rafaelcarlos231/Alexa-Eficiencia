@@ -1,0 +1,51 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "digital factory",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "EfficiencyIntent",
+          "slots": [],
+          "samples": [
+            "ole da fábrica",
+            "diga o ole da fábrica",
+            "diga o ole",
+            "diga a performance",
+            "diga a eficiência"
+          ]
+        },
+        {
+          "name": "LineEfficiencyIntent",
+          "slots": [
+            {
+              "name": "lineName",
+              "type": "AMAZON.Corporation"
+            }
+          ],
+          "samples": [
+            "diga a eficiência da linha {lineName}",
+            "diga o ole da linha {lineName}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "10"
+}
